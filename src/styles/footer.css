@@ -1,0 +1,20 @@
+.custom-footer {
+  background-color: #1c1e22;
+  border-top: 3px solid #ff5a5f;
+}
+
+.custom-footer p {
+  margin-bottom: 0;
+  color: #aaa;
+}
+
+.footer-link {
+  color: #bbb;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: #ff5a5f;
+  text-decoration: none;
+}

@@ -1,0 +1,34 @@
+.custom-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #1c1e22;
+  border-bottom: 3px solid #ff5a5f;
+  padding: 1rem 0; /* Increase vertical padding */
+}
+
+.navbar-brand {
+  color: #aaa;
+  transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out; /* Add transition for font-size */
+  font-weight: 600; /* Slightly bolder font for brand */
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #ff5a5f;
+  text-decoration: none;
+  font-size: 1.1rem; /* Slight increase in font size on hover */
+}
+
+.navbar-link {
+  color: #bbb;
+  transition: color 0.3s ease-in-out, font-weight 0.3s ease-in-out; /* Add transition for font-weight */
+  padding: 0.5rem 1rem; /* Increase spacing around navbar links for a touch-friendly design */
+}
+
+.navbar-link:hover,
+.navbar-link:focus {
+  color: #ff5a5f;
+  text-decoration: none;
+  font-weight: 600; /* Slightly bolder font on hover */
+}
